@@ -7,23 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Click below to buy drinks!</p>
-    <button id="start" onclick="info()">Give me your information</button>
 
-    <button onclick="display()">Display "Hello World!"</button>
-    <button onclick="popup()">Click Me!</button>
+<div id="heading">
+    <p id="headline" onclick="headline()">Hello! Welcome to my site!</p>
+</div>
 
-    <h2>Numercial Variables</h2>
-    <p>x=5, y=6, x+y=z, z=</p>
-    <p id="variable"></p>
-    
-    
-    <h2>If statement</h2>
-    <h3>Time based greeting:</h3>
-    <p id="if"></p>
-    <p id="time"></p>
+<div id="prompt">
+    <button onclick="info()" style="margin:10px;">Click me for a prompt!</button> 
+    <p id="buttoninfo"></p>
+</div>
 
+<div id="buttons1">
+    <button onclick="morebuttons()" style="margin:10px;">I reproduce small buttons!</button> 
+</div>
 
-    <script src="script.js"></script> 
+<div id="buttons2">
+    <button onclick="buttonbutton()" style="margin:10px;">Button Buttons!</button> 
+</div>
+
+<div id="buttons3">
+    <button onclick="textnodes()" style="margin:10px;">Click me for text!</button>
+</div>
+    <script src="myscript.js"></script>
 </body>
 </html>
