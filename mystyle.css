@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+
+.promptbox {
+    background-color: rgb(204, 204, 204);
+    color: rgb(20, 20, 20);
+}

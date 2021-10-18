@@ -1,7 +1,7 @@
 window.addEventListener('load', init);
 
 const levels = {
-  easy: 7,
+  easy: 8,
   medium: 5,
   hard: 3
 };
